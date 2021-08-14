@@ -1,0 +1,11 @@
+xscreensaver.logFile: /home/alan/.log/xscreensaver.log
+xscreensaver.newLoginCommand: dm-tool switch-to-greeter
+xscreensaver.dateFormat: %a %b %d, %Y - %I:%M%P
+xman*.manualFontNormal: -b&h-lucidatypewriter-medium-r-*-*-17-*-*-*-*-*-*-*
+xman*.manualFontBold: -b&h-lucidatypewriter-bold-r-*-*-17-*-*-*-*-*-*-*
+xman*.directoryFontNormal: -b&h-lucidatypewriter-medium-r-*-*-17-*-*-*-*-*-*-*
+xman*background: black
+xman*foreground: lightsteelblue
+Xcursor.theme: DMZ (Black)
+Xcursor.size: 48
+

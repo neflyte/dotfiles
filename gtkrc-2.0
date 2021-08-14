@@ -1,2 +1,10 @@
 gtk-application-prefer-dark-theme="true"
+gtk-icon-theme-name="GNOME-Noble"
+gtk-theme-name="Skeuos-Violet-Dark"
+gtk-font-name = "IBM Plex Sans Text 10"
+style "user-font"
+{
+  font_name = "IBM Plex Sans Text 10"
+}
+widget_class "*" style "user-font"
 

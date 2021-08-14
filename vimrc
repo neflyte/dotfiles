@@ -13,11 +13,10 @@ call plug#end()
 set background=dark
 let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
-"colorscheme slate
 " - gui config
 if has('gui_running')
   set guioptions+=T
-  set guifont=Victor\ Mono\ Medium\ 14
+  set guifont=Victor\ Mono\ Medium\ 16
 endif
 " - console config
 if !has('gui_running')
@@ -32,6 +31,10 @@ set ruler
 set laststatus=2
 set noshowmode
 set number                    " show line numbers
+filetype plugin indent on
+set tabstop=2                 " set tabstop at 2 spaces width
+set shiftwidth=2              " when indenting with '>', use 2 spaces width
+set expandtab                 " insert spaces instead of tabs
 syntax enable                 " enable syntax highlighting
 set encoding=utf-8            " set default encoding
 set nobackup                  " disable file backups
