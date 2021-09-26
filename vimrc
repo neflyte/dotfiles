@@ -1,4 +1,4 @@
-" vim: sw=2 sw=2 et
+" vim: sw=2 ts=2 et
 " - alan's .vimrc
 " - vim-plug + plugins
 call plug#begin('~/.vim/plugged')
@@ -41,9 +41,7 @@ set nobackup                  " disable file backups
 set fileformats=unix,dos,mac  " prefer unix over windows over mac for line terminators
 set maxmempattern=20000       " increase max memory to show syntax highlighting for large files
 " lightline settings
-let g:lightline = {
-	\ 'colorscheme': 'one',
-	\ }
+let g:lightline = { 'colorscheme': 'tokyonight' }
 " vim-markdown settings
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_fenced_languages = ['go=go', 'viml=vim', 'bash=sh']
@@ -52,4 +50,5 @@ let g:vim_markdown_new_list_item_indent = 2
 let g:vim_markdown_no_extensions_in_markdown = 1
 " vim-json settings
 let g:vim_json_syntax_conceal = 0
-
+" file types
+au BufNewFile,BufRead /*.rasi setf css   " Rofi .rasi files

@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.42 for alan on Sun Aug  8 16:11:24 2021.
+# Written by xscreensaver-demo 5.42 for alan on Sun Sep 19 14:59:04 2021.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -62,10 +62,11 @@ programs:								      \
 				halo -root -delay 63333			    \n\
 				slidescreen -root			    \n\
 				pedal -root				    \n\
-				bouboule -root				    \n\
+				bouboule -root -no-3d			    \n\
 				braid -root				    \n\
-				coral -root				    \n\
-				deco -root -ncolors 172 -smooth-colors	    \n\
+				coral -root -delay2 58334		    \n\
+				deco -root -ncolors 172 -smooth-colors	      \
+				  -golden-ratio				    \n\
 				drift -root				    \n\
 				fadeplot -root				    \n\
 -				galaxy -root				    \n\
@@ -94,9 +95,9 @@ programs:								      \
 				triangle -root				    \n\
 				xjack -root				    \n\
 				xlyap -root				    \n\
-  GL: 				atlantis -root				    \n\
+  GL: 				atlantis -root -no-texture -no-gradient	    \n\
 -				bsod -root				    \n\
-  GL: 				bubble3d -root -no-transparent		    \n\
+  GL: 				bubble3d -root -delay 22500 -no-transparent \n\
   GL: 				cage -root				    \n\
 				crystal -root -delay 39167		    \n\
 -				cynosure -root -fps			    \n\
@@ -115,7 +116,7 @@ programs:								      \
 -				vidwhacker -root			    \n\
 -				blaster -root				    \n\
 -				bumps -root				    \n\
-				ccurve -root				    \n\
+				ccurve -root -pause 0.4			    \n\
 				compass -root				    \n\
 				deluxe -root -no-transparent		    \n\
 				demon -root				    \n\
@@ -138,7 +139,7 @@ programs:								      \
 -				nerverot -root				    \n\
 				xrayswarm -root				    \n\
 				xspirograph -root			    \n\
-  GL: 				circuit -root -no-light			    \n\
+  GL: 				circuit -root -no-spin -no-light	    \n\
 - GL: 				dangerball -root			    \n\
   GL: 				engine -root				    \n\
   GL: 				flipscreen3d -root			    \n\
@@ -156,7 +157,7 @@ programs:								      \
 				  -finpoints 26 -withdraw 3175 -fps	    \n\
 				apollonian -root			    \n\
 - GL: 				boxed -root				    \n\
-  GL: 				cubenetic -root -no-texture -wireframe	    \n\
+  GL: 				cubenetic -root -no-texture		    \n\
 - GL: 				endgame -root				    \n\
 				euler2d -root				    \n\
 				fluidballs -root -no-shake		    \n\
@@ -165,7 +166,8 @@ programs:								      \
   GL: 				glsnake -root -titles			    \n\
 				halftone -root				    \n\
 - GL: 				juggler3d -root				    \n\
-  GL: 				lavalite -root -wander			    \n\
+  GL: 				lavalite -root -impatient -no-smooth	      \
+				  -wander				    \n\
 -				polyominoes -root			    \n\
 - GL: 				queens -root				    \n\
 - GL: 				sballs -root				    \n\
@@ -176,9 +178,8 @@ programs:								      \
 				apple2 -root				    \n\
 - GL: 				atunnel -root				    \n\
 				barcode -root				    \n\
-  GL: 				blinkbox -root				    \n\
-  GL: 				blocktube -root -delay 30833 -no-texture      \
-				  -wireframe				    \n\
+  GL: 				blinkbox -root -no-fade -no-blur	    \n\
+  GL: 				blocktube -root -delay 30833 -no-texture    \n\
   GL: 				bouncingcow -root			    \n\
 				cloudlife -root				    \n\
   GL: 				cubestorm -root -count 3		    \n\
@@ -203,7 +204,7 @@ programs:								      \
 				abstractile -root			    \n\
 				anemotaxis -root			    \n\
   GL: 				antinspect -root			    \n\
-				fireworkx -root				    \n\
+				fireworkx -root -delay 45000 -no-flash	    \n\
 				fuzzyflakes -root -random-colors	    \n\
 				interaggregate -root			    \n\
 				intermomentary -root			    \n\
@@ -216,11 +217,11 @@ programs:								      \
 				substrate -root				    \n\
 				wormhole -root				    \n\
 - GL: 				antmaze -root				    \n\
-  GL: 				boing -root -smooth -lighting -no-scanlines \n\
-				boxfit -root				    \n\
-  GL: 				carousel -root				    \n\
+  GL: 				boing -root -no-scanlines		    \n\
+				boxfit -root -grab			    \n\
+  GL: 				carousel -root -count 5 -no-titles	    \n\
 				celtic -root				    \n\
-  GL: 				crackberg -root				    \n\
+  GL: 				crackberg -root -no-flat -no-crack	    \n\
   GL: 				cube21 -root				    \n\
 				fiberlamp -root				    \n\
   GL: 				fliptext -root				    \n\
@@ -251,7 +252,7 @@ programs:								      \
   GL: 				kaleidocycle -root -spin XYZ -wander	    \n\
   GL: 				quasicrystal -root			    \n\
   GL: 				unknownpleasures -root			    \n\
-				binaryring -root			    \n\
+				binaryring -root -no-color		    \n\
   GL: 				cityflow -root				    \n\
   GL: 				geodesicgears -root			    \n\
 - GL: 				projectiveplane -root			    \n\
