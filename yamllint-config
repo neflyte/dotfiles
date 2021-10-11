@@ -1,0 +1,23 @@
+---
+# yamllint rules
+#
+extends: default
+rules:
+  braces:
+    forbid: non-empty
+    min-spaces-inside-empty: 1
+    max-spaces-inside-empty: 1
+  brackets:
+    forbid: non-empty
+    min-spaces-inside-empty: 1
+    max-spaces-inside-empty: 1
+  comments-indentation: {}
+  indentation:
+    indent-sequences: consistent
+    check-multi-line-strings: true
+  line-length:
+    max: 120
+  new-line-at-end-of-file: enable
+  quoted-strings:
+    required: only-when-needed
+
